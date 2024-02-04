@@ -1,0 +1,16 @@
+<sport-info>
+<sport id="1">
+<sname>foodball</sname>
+<sno>101</sno>
+</sport>
+
+<sport id="2">
+<sname>criket</sname>
+<sno>102</sno>
+</sport>
+
+<sport id="3">
+<sname>Hoky</sname>
+<sno>103</sno>
+</sport>
+</sport-info>
