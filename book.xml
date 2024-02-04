@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+<book_information>
+<book_no>1</book_no>
+<book_name>PHP</book_name>
+<book_price>100</book_price>
+</book_information>
+
+<book_information>
+<book_no>2</book_no>
+<book_name>JAVA</book_name>
+<book_price>500</book_price>
+</book_information>
+
+<book_information>
+<book_no>3</book_no>
+<book_name>DSA</book_name>
+<book_price>100</book_price>
+</book_information>
+
+<book_information>
+<book_no>4</book_no>
+<book_name>JS</book_name>
+<book_price>100</book_price>
+</book_information>
+
+</book>

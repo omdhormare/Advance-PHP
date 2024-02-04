@@ -1,0 +1,23 @@
+<vehicle>
+    <type type="two_wheeler">
+        <vehical_name>Hero</vehical_name>
+        <company>Hero honda</company>
+        <color>white</color>
+        <avarage>50</avarage>
+</type>
+
+<type type="three_wheeler">
+        <vehical_name>Auto</vehical_name>
+        <company>auto</company>
+        <color>black</color>
+        <avarage>200</avarage>
+</type>
+
+<type type="four_wheeler">
+        <vehical_name>creata</vehical_name>
+        <company>creata</company>
+        <color>red</color>
+        <avarage>250</avarage>
+</type>
+
+</vehicle>

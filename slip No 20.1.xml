@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movie>
+
+<category class="classical">
+<movie_name>KGF</movie_name>
+<release_year>2021</release_year>
+<actor_name>Roky</actor_name>
+</category>
+
+<category class="Action">
+<movie_name>salar</movie_name>
+<release_year>2023</release_year>
+<actor_name>XYZ</actor_name>
+</category>
+
+<category class="horror">
+<movie_name>AAA</movie_name>
+<release_year>2023</release_year>
+<actor_name>MMMM</actor_name>
+</category>
+</movie>

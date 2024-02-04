@@ -1,0 +1,13 @@
+uname{
+    color:black;
+    font-family: copperplate Gothic light;
+    font-size: 16pt;
+    font:bold;
+}
+city,rank
+{
+    color: yellow;
+    font-family: arial;
+    font-size: 12px;
+    font: bold;
+}

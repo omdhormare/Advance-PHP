@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<book>
+<category name="yoga">
+<book_title>PHP</book_title>
+<book_author>ABC</book_author>
+<book_price>500</book_price>
+</category>
+
+<category name="story">
+<book_title>JAVA</book_title>
+<book_author>XYZ</book_author>
+<book_price>100</book_price>
+</category>
+
+<category name="Technical">
+<book_title>networking</book_title>
+<book_author>MMMM</book_author>
+<book_price>400</book_price>
+</category>
+
+</book>
