@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<student>
+<stud id="1">
+<rollno>1</rollno>
+<name>om</name>
+<address>pune</address>
+<course>BCA</course>
+</stud>
+
+<stud id="2">
+<rollno>2</rollno>
+<name>omkar</name>
+<address>Nagar</address>
+<course>BCS</course>
+</stud>
+
+<stud id="3">
+<rollno>3</rollno>
+<name>Rahul</name>
+<address>Nashik</address>
+<course>BCS</course>
+</stud>
+
+<stud id="4">
+<rollno>4</rollno>
+<name>Ram</name>
+<address>shirampur</address>
+<course>MCA</course>
+</stud>
+
+<stud id="5">
+<rollno>5</rollno>
+<name>Ramesh</name>
+<address>Nagar</address>
+<course>MCA</course>
+</stud>
+
+<stud id="6">
+<rollno>6</rollno>
+<name>Manoj</name>
+<address>Nagar</address>
+<course>MCA</course>
+</stud>
+
+</student>
