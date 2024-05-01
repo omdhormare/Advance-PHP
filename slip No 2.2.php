@@ -1,40 +1,19 @@
-<!--
-a) Write a PHP script to demonstrate the introspection for examining classes and 
-objects. (use
-function get_declared_classes() ,get_class_methods() and get_class_vars())-->
+<!--Write a script to solve following questions (Use “Student.xml” file)
+i) Create a DOM Document object and load this XML file.
+11) Get the output of this Document to the browser.
+111) Save this [. XML] document in another format 1.e. in [.doc]
+Write a XML Script to print the names of the student 
+present in “Student.xm!” file-->
+
 <?php
-class AA
+$dom=new DomDocument();
+$dom->load("student.xml");
+echo $dom->savexml();
+
+$dom->save("A2.doc");
+
+foreach($dom->getElementsByTagName('name') AS $s1)
 {
-    public $aa;
-       function dis()
-    {
-        
-    }
-    public $b;
-    function dis1()
-    {
-        
-    }
-    public $c;
-    function dis2()
-    {
-        
-    } 
-    public $d;
-    function dis3()
-    {
-        
-    }
+    echo($s1->nodeValue."<br>");
 }
-$c=get_declared_classes();
-echo("<h1><br>All classed ..");
-print_r($c);
-$ob=new aa();
-$d=get_class_methods($ob);
-echo("<h1>Total Class Method : ");
-print_r($d);
-echo("<hr>");
-$d=get_class_vars("aa");
-echo("<h2><br>Total Class Declared Variable : ");
-print_r($d);
 ?>

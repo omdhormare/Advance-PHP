@@ -1,68 +1,70 @@
 <?php
 class Employee
 {
-private $eid,$ename,$edept,$sal;
-function __construct($a,$b,$c,$d)
-{
-$this->eid=$a;
-$this->ename=$b;
-$this->edept=$c;
-$this->sal=$d;
-}
-public function getdata()
-{
-return $this->sal;
-}
-public function display()
-{
-echo $this->eid."
-";
-echo $this->ename."
-";
-echo $this->edept."
-";
-}
+    private $id, $name, $dept, $salary;
+
+    public function __construct($id, $name, $dept, $salary)
+    {
+        $this->id = $id;
+        $this->name = $name;
+        $this->dept = $dept;
+        $this->salary = $salary;
+    }
+
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public function getName()
+    {
+        return $this->name;
+    }
+    public function getDept()
+    {
+        return $this->dept;
+    }
+    public function getSalary()
+    {
+        return $this->salary;
+    }
 }
 class Manager extends Employee
 {
-private $bonus;
-public static $total1=0;
-function __construct($a,$b,$c,$d,$e)
-{
-parent::__construct($a,$b,$c,$d);
-$this->bonus=$e;
-}
-public function max($ob)
-{
-$sal=$this->getdata();
-$total=$sal+$this->bonus;
-if($total>self::$total1)
-{
-self::$total1=$total;
-return $this;
-}
-else
-{
-return $ob;
-}
-}
-public function display()
-{
-parent::display();
-echo self::$total1;
+    private $bonus;
+    public function __construct($id, $name, $dept, $salary, $bonus)
+    {
+        parent::__construct($id, $name, $dept, $salary);
+        $this->bonus = $bonus;
+    }
+    public function getTotalSalary()
+    {
+        return $this->getSalary() + $this->bonus;
+    }
 }
 
+$managers = [
+    new Manager(1, "om", "BCA", 50000, 10000),
+    new Manager(2, "omkar", "BCS", 250000, 30000),
+    new Manager(3, "Rahul", "MCA", 150000, 20000)
+];
+
+$maxTotalSalaryManager = $managers[0];
+
+
+foreach ($managers as $manager) 
+{
+    if ($manager->getTotalSalary() > $maxTotalSalaryManager->getTotalSalary()) 
+    {
+        $maxTotalSalaryManager = $manager;
+    }
 }
-$ob=new Manager(0,"ABC","",0,0);
-$ob1=new Manager(1,"ramdas","computer",28000,2000);
-$ob=$ob1->max($ob);
-$ob2=new Manager(2,"ramdas1","computer",30000,2500);
-$ob=$ob2->max($ob);
-$ob3=new Manager(3,"ramdas2","computer",32000,3000);
-$ob=$ob3->max($ob);
-$ob4=new Manager(4,"ramdas","computer",28000,4000);
-$ob=$ob4->max($ob);
-$ob5=new Manager(5,"ramdas","computer",28000,5000);
-$ob=$ob5->max($ob);
-$ob->display();
+
+echo "Manager with the maximum total salary:<br>";
+echo "ID: " . $maxTotalSalaryManager->getId() . "<br>";
+echo "Name: " . $maxTotalSalaryManager->getName() . "<br>";
+echo "Department: " . $maxTotalSalaryManager->getDept() . "<br>";
+echo "Salary: " . $maxTotalSalaryManager->getSalary() . "<br>";
+echo "Bonus: " . $maxTotalSalaryManager->getTotalSalary() - $maxTotalSalaryManager->getSalary() . "<br>";
+echo "Total Salary: " . $maxTotalSalaryManager->getTotalSalary() . "<br>";
 ?>
