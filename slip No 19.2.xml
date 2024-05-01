@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<book>
+<info>
+<name>C-language</name>
+<author>omdada</author>
+<year>2022</year>
+<price>1000</price>
+</info>
+<info>
+<name>Php</name>
+<author>omkar</author>
+<year>2021</year>
+<price>100</price>
+</info>
+<info>
+<name>Java</name>
+<author>Rahul</author>
+<year>2023</year>
+<price>300</price>
+</info>
+</book>

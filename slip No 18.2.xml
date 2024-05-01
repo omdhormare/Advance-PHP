@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<BookStore>
+<Books>
+
+<PHP>
+<title>PHP</title>
+<publication>Nirali</publication>
+<price>100</price>
+</PHP>
+
+<PHP>
+<title>java</title>
+<publication>Nirali</publication>
+<price>100</price>
+</PHP>
+
+</Books>
+</BookStore>

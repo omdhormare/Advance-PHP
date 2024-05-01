@@ -1,23 +1,8 @@
-<?xml-stylesheet type="text/css" href="university.css" 
-version="1.0"?>
-
-<univercity>
+<?xml-stylesheet type="text/css" href="university.css" version="10"?>
+<u>
 <univ>
-    <uname>sppu univercity</uname>
-    <city>pune</city>
-    <rank>1st</rank>
+<uname>om</uname>
+<city>pune</city>
+<rank>1</rank>
 </univ>
-
-<univ>
-    <uname>ABC univercity</uname>
-    <city>pune</city>
-    <rank>2st</rank>
-</univ>
-
-<univ>
-    <uname>XYZ univercity</uname>
-    <city>Nashik</city>
-    <rank>3st</rank>
-</univ>
-
-</univercity>
+</u>

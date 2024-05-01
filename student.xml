@@ -1,22 +1,20 @@
-<student_info>
-<student class="FY">
-<rno>101</rno>
-<name>omkar</name>
-<address>shirampur</address>
-<collage>CD JAIN</collage>
-</student>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<student class="SY">
-<rno>102</rno>
-<name>Rahul</name>
-<address>Nagar</address>
-<collage>ABC</collage>
-</student>
-
-<student class="TY">
-<rno>103</rno>
-<name>Ganesh</name>
-<address>Nashik</address>
-<collage>XYZ</collage>
-</student>
-</student_info>
+<student-information>
+    <student>
+        <name>om</name>
+        <per>95</per>
+        <phone-no>8963225410</phone-no>
+    </student>
+    <student>
+        <name>omkar</name>
+        <per>88</per>
+        
+        <phone-no>8963225410</phone-no>
+    </student>
+     <student>
+        <name>sai</name>
+        <per>95</per>
+        <phone-no>1263225410</phone-no>
+    </student>
+</student-information>

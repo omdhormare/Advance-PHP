@@ -1,13 +1,12 @@
 uname{
-    color:black;
-    font-family: copperplate Gothic light;
-    font-size: 16pt;
+    color:red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
     font:bold;
 }
-city,rank
-{
-    color: yellow;
+city,rank{
+    color:yellow;
     font-family: arial;
-    font-size: 12px;
-    font: bold;
+    font-size:16px;
+    font:bold;
 }

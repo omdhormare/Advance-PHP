@@ -1,31 +1,17 @@
 <html>
-<head>
-    <style>
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
-    </style>
-</head>
 <body>
-    <h2>Server Information</h2>
-    <table>
-        <tr>
-            <th>Variable</th>
-            <th>Value</th>
-        </tr>
-
-        <?php
-        foreach ($_SERVER as $key => $value) 
-        {
-            echo "<tr>
-                    <td>{$key}</td>
-                    <td>{$value}</td>
-               </tr>";
-        }
-        ?>
-    </table>
+<?php
+      echo("<table border=1>");
+      echo("<h3>Server Infromation</h3>");
+      echo("<tr><th>variables</th> <th>values</th>  </tr>");
+     foreach($_SERVER as $key=>$value)
+     {
+        echo("<tr>");
+        echo("<td>".$key);
+        echo("<td>".$value);
+        echo("<tr>");
+     }
+    ?>
 
 </body>
 </html>
