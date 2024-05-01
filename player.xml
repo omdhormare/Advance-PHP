@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<player>
+<info>
+<name>om</name>
+<counrty>india</counrty>
+<wicket>50</wicket>
+<runs>100</runs>
+</info>
+
+<info>
+<name>omkar</name>
+<counrty>india</counrty>
+<wicket>10</wicket>
+<runs>80</runs>
+</info>
+
+<info>
+<name>Rohan</name>
+<counrty>india</counrty>
+<wicket>100</wicket>
+<runs>8</runs>
+</info>
+</player>

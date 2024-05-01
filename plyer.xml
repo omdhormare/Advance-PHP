@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cricket>
+<game>
+<player>Sachin Tendulkar</player>
+<runs>1300</runs>
+<wickets>50</wickets>
+<noofnotout>20</noofnotout>
+</game>
+
+<game>
+<player>MS Dhoni</player>
+<runs>1200</runs>
+<wickets>50</wickets>
+<noofnotout>20</noofnotout>
+</game>
+
+<game>
+<player>MS Dhoni</player>
+<runs>1200</runs>
+<wickets>60</wickets>
+<noofnotout>20</noofnotout>
+</game>
+
+<game>
+<player>OM</player>
+<runs>1200</runs>
+<wickets>60</wickets>
+<noofnotout>20</noofnotout>
+</game>
+
+</cricket>
