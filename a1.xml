@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<student>
+
+<information id="BCA">
+<rollno>101</rollno>
+<name>om</name>
+<address>Nagar</address>
+<course>BCA</course>
+</information>
+
+<information id="MCA">
+<rollno>102</rollno>
+<name>omkar</name>
+<address>pune</address>
+<course>MCA</course>
+</information>
+
+<information id="BCA">
+<rollno>103</rollno>
+<name>omkar</name>
+<address>Rahuri</address>
+<course>BCA</course>
+</information>
+</student>
